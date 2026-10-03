@@ -1,0 +1,18 @@
+{
+  "serviceName": "user-service",
+  "urls": [
+    {
+      "url": "https://jbo.798game.com",
+      "type": "PRIMARY",
+      "weight": 100,
+      "enabled": true
+    },
+    {
+      "url": "https://sites.google.com/view/jbotiyu",
+      "type": "BACKUP",
+      "weight": 50,
+      "enabled": true
+    }
+  ],
+  "strategy": "FAILOVER"
+}
